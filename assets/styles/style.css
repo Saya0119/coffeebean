@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+/* (1) Header Area */
+
+.nav{
+    overflow: auto;
+    width: 85%;
+    margin: 1em auto;
+
+}
+
+.nav h1{
+    text-transform: uppercase;
+    width: 50%;
+    float: left;
+
+}
+
+.nav h1 a{
+    text-decoration: none;
+    font-family: 'Oswald',sans-serif;
+    color: #96746b;
+
+}
+
+.nav ul{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 1em;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-family: 'Raleway'sans-serif;
+    font-weight: 700;
+    color: #312a26;
+}
+
+
+
+/* (2) Banner Area */
+
+.absolute{
+    position: absolute;
+    color: #C7A17A;
+    font-size: 40px;
+    font-weight: 900;
+    top: 500px;
+    right: 500px;
+    left:100px;
+    bottom: 200px;
+
+   
+}
+
+.absolutea{
+    position: absolute;
+    color: #96746B;
+    font-size: 40px;
+    font-weight: 900;
+    top: 500px;
+    right: 50px;
+    left: 350px;
+    bottom: 200px;
+
+   
+}
+
+.absolute-2{
+    position: absolute;
+    font-size: 18px;
+    color: aliceblue;
+    top: 550px;
+    padding-bottom: 5px;
+    
+    height: 30px;
+    right: 500px;
+    left:100px;
+    bottom: 100px;
+
+   
+}
+
+.absolute-3{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    top: 590px;
+    right: 500px;
+    left:100px;
+    bottom: 100px;
+
+}
+
+.absolute-3 a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    background: #312A26;
+    padding: 10px 15px;
+}
+
+
+
+/* (3) Banner Area */
+
+.relative-3 {
+   width: 1200px;
+   height: 1200px;
+   display: flex;
+}
+.relative-3 img {
+    width: 50%;
+    height: 30%;
+    margin-left: 60px;
+    margin-top: 20px;
+    
+ }
+
+.absolute3-1{
+    position: absolute;
+    color:white;
+    font-size: 28px;
+    font-weight: 700;
+    top: 1100px;
+    right: 500px;
+    left:100px;
+    bottom: 200px;
+}
+
+.absolute3-2{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    
+    top: 1130px;
+    right: 500px;
+    left:100px;
+    bottom: 100px;  
+}
+
+.absolute3-3{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    top: 1190px;
+    right: 500px;
+    left:100px;
+    bottom: 100px;
+
+}
+
+.absolute3-3 a{
+    
+    color: white;
+    
+}
+
+
+
+ .relative-4 img {
+     width: 90%;
+     height: 30%;
+     margin-right: 60px;
+     margin-top: 20px;
+     position: relative;left: 50px;
+     float: right;
+ 
+  }
+ 
+ .absolute4-1{
+     position: absolute;
+     color:white;
+     font-size: 28px;
+     font-weight: 700;
+     top: 1100px;
+     right: 100px;
+     left:700px;
+     bottom: 200px;
+ }
+ 
+ .absolute4-2{
+     position: absolute;
+     font-size: 30px;
+     color: white;
+     font-weight: 700;
+     
+     top: 1130px;
+     right: 100px;
+     left:700px;
+     bottom: 100px;  
+ }
+ 
+ .absolute4-3{
+     position: absolute;
+     font-size: 20px;
+     color: white;
+     font-weight: 700;
+     top: 1190px;
+     right: 100px;
+     left:700px;
+     bottom: 100px;
+ 
+ }
+ 
+ .absolute4-3 a{
+     
+     color: white;
+     
+ }
+
+  .Merchandise {
+    
+        width: 85%;
+        margin: 4em auto;
+    
+    }
+
+  
+
+    
+    
+    
+ 
+
+ .Merchandise h2{
+    font-style:italic ;
+    color: #C7A17A;
+    text-align: center;
+ }
+
+ .Merchandise h1{
+    
+    padding-top: 1px;
+    text-align: center;
+ }
+
+ .Merchandise hr{
+    height: 2px;
+    width: 30%;
+    background-color:#C7A17A ;
+    margin: auto;
+ }
+
+ 
+
+
+table{
+    width: 100%;
+    height: 400px;
+
+}
+
+
+ table img{
+    width:95%;
+    height:95%;
+    margin-right: 2px;
+    margin-bottom: 0;
+
+ }
+
+ table .textline{
+    width: 95%;
+    margin-left: 5px;
+    vertical-align: top;
+    margin-top: 0;
+}
+
+
+ .text-1{
+    width: 100%;
+    height: 20px;
+    display: inline;
+ }
+
+ 
+
+
+
+   
+
+ 
+
+
+.product2{
+    overflow: auto;
+    width: 85%;
+    margin: 1em auto;
+}
+ .p5 img{
+    width:20%;
+    height:20%;
+
+ }
+
+
+ .p6 img{
+    width:20%;
+    height:20%;
+
+ }
+
+ .p7 img{
+    width:20%;
+    height:20%;
+
+ }
+
+ .p8 img{
+    width:20%;
+    height:20%;
+
+ }
+
+#96746B
+#312A26
+#C7A17A

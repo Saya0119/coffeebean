@@ -1,0 +1,45 @@
+*{
+    font-size: 15px;
+    font-style: italic;
+    color: aqua;
+}
+
+
+
+.leftside{
+    width: 45%;
+    height: 500px;
+    background-color: blue;
+    border:   10px solid pink;
+    float: left;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+
+input.name { 
+    width: 220px; 
+}
+
+.rightside{
+    margin-right: 50px;
+    width: 45%;
+    height:500px;
+    background-color: bisque;
+    float: left;
+    
+}
+
+textarea{
+    width: 500px;
+    height: 200px;
+}
+
+.dotimage{
+    width: 500px;
+    height:150px;
+    margin-left: 90px;
+    margin-right: 50px;
+
+
+}
